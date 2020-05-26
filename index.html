@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>박수현 홈페이지</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: peru;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(185, 255, 119);
+    }
+
+    a:visited {
+        color: rgb(245, 33, 69);
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">My Favorite</a> <br>
+                <a href="#edu">Education</a> <br>
+                <a href="#works">For future</a> <br>
+                <a href="#con">Contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to my world of work & life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b> Suhyun Park </b></h1>
+            <h1 class="xxxlarge colorname" id="What I like"><b>My Favorite</b></h1>
+            <hr style="width:40%; border:5px double rgb(245, 201, 4); float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="first.jpg" style="width:100%" alt="케이크">
+                <img src="second.jpg" style="width:100%" alt="휴식">
+                <img src="third.jpg" style="width:100%" alt="강아지">
+            </div>
+
+            <div class="half">
+                <img src="fourth.jpg" style="width:100%" alt="영화">
+                <img src="fifth.jpg" style="width:100%" alt="음악">
+                <img src="sixth.jpg" style="width:100%" alt="그림">
+            </div>
+        </div>
+
+        <!-- 공부 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>Education</b></h1>
+            <hr style="width:40%; border:5px double rgb(245, 201, 4); float: left; clear: both; "> <br>
+            <p>저는 지금까지 아래와 같은 포부를 갖고 공부했습니다.</p>
+            <p>어떠한 결과를 얻기 위해서 힘든 과정을 겪는 것은 당연한 일이다. 다만 힘든 과정을 이겨내는 사람은 값진 결과를 얻을 것이고, 포기하는 사람은 제자리에 머물 것이다.
+                따라서 원하는 걸 얻기 위해서는 힘든 과정을 이겨내야만 한다.
+            </p>
+        </div>
+
+        <!-- 미래를 위해 -->
+        <div class="bigbox" id="works" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>For future</b></h1>
+            <hr style="width:40%; border:5px double rgb(245, 201, 4); float: left; clear: both; "> <br>
+            <p>지금까지 제가 저의 진로를 위해 배운 것들은 아래와 같습니다.</p>
+            <p>저는 지금까지 학교 수업에서 웹프로그래밍 기초 수업을 통해 CSS와 HTML을  다루는 법과 파이썬 프로그래밍 수업을 통해서 코딩하는 방법을 배웠고, 스터디 활동을 통해서 C언어를 배우고 있습니다.
+            </p>
+            <p><b>저는 저의 꿈을 위해 계속 나아가는 중입니다.</b></p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>Contact</b></h1>
+            <hr style="width:40%; border:5px double  rgb(245, 201, 4); float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-1234-5678</li>
+                <li><a href="mailto:suhyunpark0410@naver.com">suhyunpark0410@naver.com</a></li> <br>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-facebook"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 박수현 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
